@@ -1,0 +1,20 @@
+.marker {
+    width:0;
+    height:0;
+  }
+  
+  .marker span {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-sizing:border-box;
+    width: 30px;
+    height: 30px;
+    color:#000;
+    background: #66ffa6;
+    border-radius: 0 70% 70%;
+  }
+  
+  .marker b {
+    transform: rotateZ(135deg)
+  }
